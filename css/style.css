@@ -8,9 +8,12 @@ a {
 ul {
     list-style: none;
     }
-.navigation{
-    
-}
+ .container{
+        max-width: 320px;
+        padding: 0 16px;
+        margin: 0 auto;
+        
+    }
 .nav-item-link{
     font-weight: 500;
 font-size: 14px;
