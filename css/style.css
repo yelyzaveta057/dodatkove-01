@@ -54,8 +54,13 @@ ul {
 .hero-button {
   font-weight: 600;
   font-size: 14px;
-  color: #111;
-  background-color: #fd9222;
+  border-radius: 100px;
+  padding: 12px 28px;
+  width: 120px;
+  height: 41px;
+  border-style: none;
+  color: #fff;
+  background: #fd9222;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -66,6 +71,9 @@ ul {
   font-weight: 600;
   font-size: 14px;
   color: #fff;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  padding: 12px 28px;
 }
 .hero-link:hover,
 .hero-link:focus {
@@ -75,7 +83,15 @@ ul {
   width: 78px;
   height: 18px;
   color: #111;
+  width: 107px;
+  height: 28px;
 }
+.hero-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
 .benefitsmain {
   font-weight: 600;
   font-size: 18px;
