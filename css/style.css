@@ -1,173 +1,186 @@
-body{
-    font-family: "Montserrat", serif;
+@import url(/css/container.css);
+
+body {
+  font-family: "Montserrat", serif;
+}
+html {
+  scroll-behavior: smooth;
 }
 a {
-    text-decoration: none;
-    }
-    
-ul {
-    list-style: none;
-    }
- .container{
-        max-width: 320px;
-        padding: 0 16px;
-        margin: 0 auto;
-        
-    }
-.nav-item-link{
-    font-weight: 500;
-font-size: 14px;
-line-height: 1.14286;
-letter-spacing: -0.02em;
-color: #111;
+  text-decoration: none;
+}
 
+ul {
+  list-style: none;
+}
+.hero {
+  border-radius: 30px;
+
+  height: 620px;
+  background: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+    url(../images/main-pic/main-pic-mob@1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.nav-item-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14286;
+  letter-spacing: -0.02em;
+  color: #111;
 }
 .nav-item-link:hover,
-.nav-item-link:focus{
-    color: #fd9222;
+.nav-item-link:focus {
+  color: #fd9222;
 }
-.simply-choc{
-    font-weight: 700;
-font-size: 18px;
-line-height: 1.11111;
-letter-spacing: -0.03em;
-color: #111;
+.simply-choc {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11111;
+  letter-spacing: -0.03em;
+  color: #111;
 }
-.simply{
-    font-style: italic;
+.simply {
+  font-style: italic;
 }
-.hero{
-    background-color: #1e1823;
+.hero-first-text {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21429;
+  letter-spacing: -0.03em;
+  color: #fff;
 }
-.hero-first-text{
-    font-weight: 500;
-font-size: 28px;
-line-height: 1.21429;
-letter-spacing: -0.03em;
-color: #fff;
-}
-.hero-button{
-    font-weight: 600;
-font-size: 14px;
-color: #111;
-background-color: #fd9222;
+.hero-button {
+  font-weight: 600;
+  font-size: 14px;
+  color: #111;
+  background-color: #fd9222;
 }
 .hero-button:hover,
-.hero-button:focus{
-    color: #fd9222;
-    background-color: #fcf1e0;
+.hero-button:focus {
+  color: #fd9222;
+  background-color: #fcf1e0;
 }
-.hero-link{
-    font-weight: 600;
-font-size: 14px;
-color: #fff;
+.hero-link {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
 }
 .hero-link:hover,
-.hero-link:focus{
-    color: #fd9222;
+.hero-link:focus {
+  color: #fd9222;
 }
-.scrolldown{
-    width: 78px;
-height: 18px;
-color: #111;
+.scrolldown {
+  width: 78px;
+  height: 18px;
+  color: #111;
 }
-.benefitsmain{
-    font-weight: 600;
-font-size: 18px;
+.benefitsmain {
+  font-weight: 600;
+  font-size: 18px;
 }
-.description{
-    font-weight: 400;
-font-size: 14px;
-letter-spacing: -0.02em;
-color: #111;
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+.ingredients-text {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16667;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #111;
+}
+.taste {
+  color: #fd9222;
+}
+.ingredients-p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: #111;
+}
 
+.pic-desc {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
 }
-.ingredients-text{
-    font-weight: 600;
-font-size: 24px;
-line-height: 1.16667;
-letter-spacing: -0.03em;
-text-transform: uppercase;
-color: #111;
+.made {
+  color: #fd9222;
 }
-.taste{
-    color:#fd9222;;
+.try {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33333;
 }
-.ingredients-p{
-    font-weight: 400;
-font-size: 14px;
-line-height: 1.28571;
-color: #111;
+.step-gide {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
 }
-
-.pic-desc{
-    font-weight: 600;
-font-size: 14px;
-line-height: 1.28571;
-letter-spacing: -0.02em;
-text-transform: uppercase;
-color: #111;
+.chocolate {
+  color: #fd9222;
 }
-.made{
-    color:#fd9222;
+.names {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33333;
 }
-.try{
-    font-weight: 600;
-font-size: 18px;
-line-height: 1.33333;
+.decrp {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
 }
-.step-gide{
-    font-weight: 400;
-font-size: 14px;
-line-height: 1.28571;
-letter-spacing: -0.02em;
-}
-.chocolate{
-    color:#fd9222;
-}
-.names{
-    font-weight: 600;
-font-size: 18px;
-line-height: 1.33333;
-}
-.decrp{
-    font-weight: 400;
-font-size: 14px;
-line-height: 1.28571;
-letter-spacing: -0.02em;
-}
-.leave-button{
-    font-weight: 600;
-font-size: 18px;
-color: #111;
+.leave-button {
+  font-weight: 600;
+  font-size: 18px;
+  color: #111;
 }
 .leave-button:hover,
-.leave-button:focus{
-    color: #fff;
-    background-color: #fd9222;
+.leave-button:focus {
+  color: #fff;
+  background-color: #fd9222;
 }
-.scrolldown{
-    font-weight: 500;
-font-size: 14px;
-line-height: 1.28571;
-letter-spacing: -0.03em;
-color: #fff;
+.scrolldown {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.03em;
+  color: #fff;
 }
 .scrolldown:hover,
-.scrolldown:focus{
-    color: #fd9222;
+.scrolldown:focus {
+  color: #fd9222;
 }
-.contact{
-    font-weight: 500;
-font-size: 14px;
-line-height: 1.28571;
+.contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
 }
-.contacts{
-    font-weight: 400;
-font-size: 14px;
-line-height: 1.28571;
-letter-spacing: -0.02em;
+.contacts {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
 }
-.foter-addrs{
-    font-style: normal;
+.foter-addrs {
+  font-style: normal;
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    background: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+      url(../images/main-pic/main-pic-laptop@1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
