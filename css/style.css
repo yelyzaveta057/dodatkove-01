@@ -1,8 +1,5 @@
 @import url(/css/container.css);
 
-body {
-  font-family: "Montserrat", serif;
-}
 html {
   scroll-behavior: smooth;
 }
@@ -12,6 +9,7 @@ a {
 
 ul {
   list-style: none;
+  padding: 0;
 }
 .hero {
   border-radius: 30px;
@@ -22,6 +20,21 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin-bottom: 60px;
+}
+.svg-div {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 365px;
+  width: 62px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 7px;
+}
+.section-our-benefits {
+  background: #1e1823;
 }
 .nav-item-link {
   font-weight: 500;
@@ -80,8 +93,6 @@ ul {
   color: #fd9222;
 }
 .scrolldown {
-  width: 78px;
-  height: 18px;
   color: #111;
   width: 107px;
   height: 28px;
@@ -95,12 +106,17 @@ ul {
 .benefitsmain {
   font-weight: 600;
   font-size: 18px;
+  color: #fff;
+}
+.section-our-benefits {
+  padding-left: 20px;
+  padding: 20px;
 }
 .description {
   font-weight: 400;
   font-size: 14px;
   letter-spacing: -0.02em;
-  color: #111;
+  color: rgba(255, 255, 255, 0.7);
 }
 .ingredients-text {
   font-weight: 600;
@@ -109,7 +125,70 @@ ul {
   letter-spacing: -0.03em;
   text-transform: uppercase;
   color: #111;
+  text-align: center;
 }
+
+/*Ingredients*/
+.ingr-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+  margin-top: 40px;
+}
+
+.ingr-li {
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ingr-li:nth-child(1) {
+  border-radius: 15px;
+  width: 335px;
+  height: 270px;
+  background: #fd9222;
+}
+
+.ingr-li:nth-child(2) {
+  border: 1px solid #fd9222;
+  background-color: #fff;
+  color: #111;
+  width: 335px;
+  height: 270px;
+}
+
+.ingr-li:nth-child(3) {
+  background-color: #1e1823; /* Dark */
+  color: #fff;
+  width: 335px;
+  height: 270px;
+}
+
+.ingr-li:nth-child(4) {
+  border: 1px solid #fd9222;
+  background-color: #fff;
+  color: #111;
+  width: 335px;
+  height: 270px;
+}
+.ingr-pic {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  margin-bottom: 14px;
+}
+
+.pic-desc {
+  margin: 0;
+}
+/*End Ingri*/
 .taste {
   color: #fd9222;
 }
@@ -118,6 +197,7 @@ ul {
   font-size: 14px;
   line-height: 1.28571;
   color: #111;
+  text-align: center;
 }
 
 .pic-desc {
@@ -161,6 +241,7 @@ ul {
   font-size: 18px;
   color: #111;
 }
+
 .leave-button:hover,
 .leave-button:focus {
   color: #fff;
@@ -177,11 +258,19 @@ ul {
 .scrolldown:focus {
   color: #fd9222;
 }
+.ingredients-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 32px;
+}
 .contact {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28571;
 }
+
 .contacts {
   font-weight: 400;
   font-size: 14px;
